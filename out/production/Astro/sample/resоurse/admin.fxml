@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="267.0" prefWidth="618.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.AdminController">
+   <children>
+      <Label layoutX="18.0" layoutY="75.0" text="Пользователи:">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="121.0" text="Солнечная система(планеты):">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="tablePlanet" layoutX="423.0" layoutY="124.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #F39C63;" text="click" />
+      <Button fx:id="ExitButton" layoutX="127.0" layoutY="215.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #F39C63;" text="Exit" />
+      <Button fx:id="tableAccount" layoutX="223.0" layoutY="78.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #F39C63;" text="click" />
+      <Label layoutX="18.0" layoutY="164.0" text="Таблица логов:">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="logPacket" layoutX="229.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #F39C63;" text="click" />
+      <Label layoutX="18.0" layoutY="213.0" text="Выход:">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="21.0" text="Панель администратора">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
